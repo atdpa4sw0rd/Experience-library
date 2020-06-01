@@ -1,0 +1,322 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ATDpa4sw0rd</title>
+
+<!--图标样式-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+<!--主要样式-->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.tree li:has(ul)').addClass('parent_li').find(' > span').attr('title', 'Collapse this branch');
+    $('.tree li.parent_li > span').on('click', function (e) {
+        var children = $(this).parent('li.parent_li').find(' > ul > li');
+        if (children.is(":visible")) {
+            children.hide('fast');
+            $(this).attr('title', 'Expand this branch').find(' > i').addClass('icon-plus-sign').removeClass('icon-minus-sign');
+        } else {
+            children.show('fast');
+            $(this).attr('title', 'Collapse this branch').find(' > i').addClass('icon-minus-sign').removeClass('icon-plus-sign');
+        }
+        e.stopPropagation();
+    });
+});
+</script>
+
+</head>
+<body>
+<div id="show_time0" class="badge badge-important"><i class="icon-time"></i>
+<script>
+     setInterval("show_time0.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);  
+</script>
+</div>
+<marquee scrollamount="10" scrolldelay="100" direction="left" height="25" onMouseOver=this.stop() onMouseOut=this.start()><font color="#C0C0C0" style="font-size: 9pt">
+  <span class="badge badge-important"><i class="icon-fire"></i> 多挖漏洞！</span>  ————————
+  <span class="badge badge-warning"><i class="icon-fire"></i> 多多挣钱！</span>  ————————
+  <span class="badge label-success"><i class="icon-fire"></i> 多点好运！</span>  ————————
+  <span class="badge badge-info"><i class="icon-fire"></i> 早日成为大佬！</span>  
+</marquee>
+
+<div clss="bg">
+<div class="tree">
+    <ul>
+        <li>
+            <span><i class="icon-calendar"></i> 经验文章库</span>
+            <ul>
+                <li>
+                	<span ><i class="icon-minus-sign"></i> 1. 渗透案例</span>
+                    <ul>
+                        <li>
+	                        <a href="./all/某真实渗透实践案例分析.pdf#now"target="_blank""><span><i class="icon-file"></i> 1.1</span> &ndash; 某真实渗透实践案例分析</a>	
+                        </li>
+						<li>
+	                        <a href="./all/一次曲折的渗透测试之旅.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.2</span> &ndash; 一次曲折的渗透测试之旅</a>	
+                        </li>
+						<li>
+	                        <a href="./all/红队测试之邮箱打点.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.3</span> &ndash; 红队测试之邮箱打点</a>	
+                        </li>
+						<li>
+	                        <a href="./all/DLL劫持右键菜单实现持久化.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.4</span> &ndash; DLL劫持右键菜单实现持久化</a>	
+                        </li>
+						<li>
+	                        <a href="./all/细说渗透江湖之出荆棘入深林.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.5</span> &ndash; 细说渗透江湖之出荆棘入深林</a>	
+                        </li>
+						<li>
+	                        <a href="./all/细说渗透江湖之柳暗花明又一村.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.6</span> &ndash; 细说渗透江湖之柳暗花明又一村</a>	
+                        </li>
+						<li>
+	                        <a href="./all/对湾湾两所大学的渗透.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.7</span> &ndash; 对湾湾两所大学的渗透</a>	
+                        </li>
+						<li>
+	                        <a href="./all/记一次对BC站的渗透实战.pdf#now"target="_blan"><span><i class="icon-file"></i> 1.8</span> &ndash; 记一次对BC站的渗透实战</a>	
+                        </li>
+						<li>
+	                        <a href="./all/l3m0n-渗透测试中的那点小事.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.9</span> &ndash; l3m0n-渗透测试中的那点小事</a>	
+                        </li>
+						<li>
+	                        <a href="./all/一次SQL注入到代码审计之路.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.10</span> &ndash; 一次SQL注入到代码审计之路</a>	
+                        </li>
+						<li>
+	                        <a href="./all/百步穿杨看我如何在APP中getshell.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.11</span> &ndash; 百步穿杨看我如何在APP中getshell</a>	
+                        </li>
+						<li>
+	                        <a href="./all/记一次曲折而又有趣的渗透R3start.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.12</span> &ndash; 记一次曲折而又有趣的渗透R3start</a>	
+                        </li>
+						<li>
+	                        <a href="./all/渗透测试如何快速拿到Webshell.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.13</span> &ndash; 渗透测试如何快速拿到Webshell</a>	
+                        </li>
+						<li>
+	                        <a href="./all/渗透测试 _ 内网信息收集.pdf#now"target="_blank"><span><i class="icon-file"></i> 1.14</span> &ndash; 渗透测试 _ 内网信息收集</a>	
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                	<span ><i class="icon-minus-sign"></i> 2. 渗透技巧</span>
+                    <ul>
+                        <li>
+	                        <span ><i class="icon-minus-sign"></i> 2.1 命令执行</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 2.1.1</span> &ndash; <a href="./all/Windows文件下载执行的15种姿势.pdf"target="_blank">Windows文件下载执行的15种姿势</a>
+										</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 2.2 Sql技巧</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 2.2.1</span> &ndash; <a href="./all/初识SQLMAP API和命令行中调用.pdf#now"target="_blank">初识SQLMAP API和命令行中调用</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.2.2</span> &ndash; <a href="./all/分块传输绕过WAF进行SQL注入.pdf#now"target="_blank">分块传输绕过WAF进行SQL注入</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.2.3</span> &ndash; <a href="./all/SQLmap的使用.pdf#now"target="_blank">SQLmap的使用</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.2.4</span> &ndash; <a href="./all/使用sqlmap中的tamper脚本绕过waf.pdf#now"target="_blank">使用sqlmap中的tamper脚本绕过waf</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.2.5</span> &ndash; <a href="./all/Fuzz绕过安全狗4.0实现SQL注入.pdf#now"target="_blank">Fuzz绕过安全狗4.0实现SQL注入</a>
+										</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 2.3 奇淫巧计</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 2.3.1</span> &ndash; <a href="./all/通过PING_tunnel_转换beacon流量.pdf#now"target="_blank">通过PING_tunnel_转换beacon流量</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.3.2</span> &ndash; <a href="./all/渗透测试APP流量通用抓包方法.pdf#now"target="_blank">渗透测试APP流量通用抓包方法</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.3.3</span> &ndash; <a href="./all/红队技能_仿冒Windows登录.pdf#now"target="_blank">红队技能_仿冒Windows登录</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.3.4</span> &ndash; <a href="./all/对Redis在Windows下的利用方式思考R3start.pdf#now"target="_blank">对Redis在Windows下的利用方式思考R3start</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.3.5</span> &ndash; <a href="./all/通过SSRF操作Redis主从复制写Webshell_R3start.pdf#now"target="_blank">通过SSRF操作Redis主从复制写Webshell_R3start</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.3.6</span> &ndash; <a href="./all/利用Domain+CDN隐藏VPS真实IP.pdf#now"target="_blank">利用Domain+CDN隐藏VPS真实IP</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.3.7</span> &ndash; <a href="./all/绕过CDN寻找真实IP的8种方法.pdf#now"target="_blank">绕过CDN寻找真实IP的8种方法</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.3.8</span> &ndash; <a href="./all/redis安全学习小记.pdf#now"target="_blank">redis安全学习小记</a>
+										</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 2.4 免杀技巧</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 2.4.1</span> &ndash; <a href="./all/Mimikatz的18种免杀姿势及防御策略.pdf#now"target="_blank">Mimikatz的18种免杀姿势及防御策略</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.4.2</span> &ndash; <a href="./all/回忆杀-特征码免杀实践.pdf#now"target="_blank">回忆杀-特征码免杀实践</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.4.3</span> &ndash; <a href="./all/bypass_360_meterpreter免杀技巧.pdf#now"target="_blank">bypass_360_meterpreter免杀技巧</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.4.4</span> &ndash; <a href="./all/免杀之shecodject使用.pdf#now"target="_blank">免杀之shecodject使用</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.4.5</span> &ndash; <a href="./all/利用Python反序列化运行加载器实现免杀.pdf#now"target="_blank">利用Python反序列化运行加载器实现免杀</a>
+										</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 2.5 域渗透技巧</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 2.5.1</span> &ndash; <a href="./all/由浅入深的域渗透系列一(上).pdf#now"target="_blank">由浅入深的域渗透系列一(上)</a>
+										</li>
+										<li>
+											<span><i class="icon-file"></i> 2.5.2</span> &ndash; <a href="./all/由浅入深的域渗透系列一(下).pdf#now"target="_blank">由浅入深的域渗透系列一(下)</a>
+										</li>
+								</ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                	<span "><i class="icon-minus-sign"></i> 3. 漏洞挖掘</span>
+                    <ul>
+                        <li>
+	                        <a href="./all/任意密码重置之验证码爆破.pdf#now"target="_blank"><span><i class="icon-file"></i> 3.1</span> &ndash; 任意密码重置之验证码爆破</a>
+                        </li>
+                        <li>
+	                        <a href="./all/关于PLC安全的一次实验.pdf#now"target="_blank"><span><i class="icon-file"></i> 3.2</span> &ndash; 关于PLC安全的一次实验</a>
+                        </li>
+						<li>
+	                        <a href="./all/施耐德PLC漏洞历险记.pdf#now"target="_blank"><span><i class="icon-file"></i> 3.3</span> &ndash; 施耐德PLC漏洞历险记</a>
+                        </li>
+						<li>
+	                        <a href="./all/一次性验证密码OTP的简单绕过.pdf#now"target="_blank"><span><i class="icon-file"></i> 3.4</span> &ndash; 一次性验证密码OTP的简单绕过</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                	<span ><i class="icon-minus-sign"></i> 4. 漏洞分析</span>
+                    <ul>
+                        <li>
+	                        <a href="./all/CVE-2017-12824及利用样本分析.pdf#now"target="_blank"><span><i class="icon-file"></i> 4.1</span> &ndash; CVE-2017-12824及利用样本分析</a>
+                        </li>
+						<li>
+	                        <a href="./all/Apache-Shiro反序列化.pdf#now"target="_blank"><span><i class="icon-file"></i> 4.1</span> &ndash; Apache-Shiro反序列化</a>
+                        </li>
+                    </ul>
+                </li>
+				<li>
+                	<span ><i class="icon-minus-sign"></i> 5. 工具技巧</span>
+                    <ul>
+                        <li>
+	                        <span ><i class="icon-minus-sign"></i> 5.1 蚁剑</span>
+								<ul>
+									<li>
+										<a href="./all/中国蚁剑自定义编码用法.pdf#now"target="_blank"><span><i class="icon-file"></i> 5.1.1</span> &ndash; 中国蚁剑自定义编码用法</a>
+									</li>
+									<li>
+										<a href="./all/改造中国蚁剑AntSword之轻松过狗.pdf#now"target="_blank"><span><i class="icon-file"></i> 5.1.2</span> &ndash; 改造中国蚁剑AntSword之轻松过狗</a>
+									</li>
+									<li>
+										<a href="./all/利用中国蚁剑无文件连接phpstudy后门方法.pdf#now"target="_blank"><span><i class="icon-file"></i> 5.1.3</span> &ndash; 利用中国蚁剑无文件连接phpstudy后门方法</a>
+									</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 5.2 BurpSuite</span>
+								<ul>
+									<li>
+										<a href="./all/BurpSuite 实战指南.pdf#now"target="_blank"><span><i class="icon-file"></i> 5.1.1</span> &ndash; BurpSuite 实战指南</a>
+									</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 5.3 端口转发</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 5.3.1</span> &ndash; <a href="./all/Frp内网穿透实战.pdf#now"target="_blank">Frp内网穿透实战</a>
+										</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 5.4 beef的使用</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 5.4.1</span> &ndash; <a href="./all/工具的使用 _ BeEF的使用.pdf#now"target="_blank">工具的使用 _ BeEF的使用</a>
+										</li>
+								</ul>
+                        </li>
+						<li>
+	                        <span ><i class="icon-minus-sign"></i> 5.5 Cobalt-Strike</span>
+								<ul>
+										<li>
+											<span><i class="icon-file"></i> 5.5.1</span> &ndash; <a href="./all/Cobalt_Strike证书修改.pdf#now"target="_blank">Cobalt_Strike证书修改</a>
+										</li>
+								</ul>
+                        </li>
+                    </ul>
+                </li>
+				<li>
+                	<span ><i class="icon-minus-sign"></i> 6. 代码审计</span>
+                    <ul>
+                        <li>
+	                        <a href="./all/老司机独家代码审计姿势.pdf#now"target="_blank"><span><i class="icon-file"></i> 2.00</span> &ndash; 老司机独家代码审计姿势</a>
+                        </li>
+                    </ul>
+                </li>
+				<li>
+                	<span ><i class="icon-minus-sign"></i> 7. Webshell</span>
+                    <ul>
+                        <li>
+	                        <a href="./all/一文详解Webshell.pdf#now"target="_blank"><span><i class="icon-file"></i> 7.1</span> &ndash; 一文详解Webshell</a>
+                        </li>
+						<li>
+	                        <a href="./all/闲谈Webshell实战应用.pdf#now"target="_blank"><span><i class="icon-file"></i> 7.2</span> &ndash; 闲谈Webshell实战应用</a>
+                        </li>
+						<li>
+	                        <a href="./all/无字母数字webshell进阶收藏版.pdf#now"target="_blank"><span><i class="icon-file"></i> 7.2</span> &ndash; 无字母数字webshell进阶收藏版</a>
+                        </li>
+                    </ul>
+                </li>
+				<li>
+                	<span ><i class="icon-minus-sign"></i> 8. 护网经验</span>
+                    <ul>
+                        <li>
+	                        <a href="./all/一次攻防实战演习复盘总结.pdf#now"target="_blank"><span><i class="icon-file"></i> 8.1</span> &ndash; 一次攻防实战演习复盘总结</a>
+                        </li>
+						<li>
+	                        <a href="./all/护网防守应对手册.pdf#now"target="_blank"><span><i class="icon-file"></i> 8.2</span> &ndash; 网防守应对手册</a>
+                        </li>
+						<li>
+	                        <a href="./all/护网攻击经验.pdf#now"target="_blank"><span><i class="icon-file"></i> 8.3</span> &ndash; 护网攻击经验</a>
+                        </li>
+                    </ul>
+                </li>
+				<li>
+                	<span ><i class="icon-minus-sign"></i> 9. 常用密码表</span>
+                    <ul>
+                        <li>
+	                        <a href="./all/weakpassword/index.html#now"target="_blank""><span><i class="icon-file"></i> 9.1</span> &ndash; 各大厂商安全设备常用密码</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</div>
+
+</body>
+</html>
