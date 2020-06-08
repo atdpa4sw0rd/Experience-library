@@ -11,6 +11,18 @@
 ![预览](https://github.com/atdpa4sw0rd/Experience-library/blob/master/Snipaste_2020-06-01_13-15-12.jpg)
 
 <<<<<<< HEAD
+
+ **2020.06.08 21:45 更新文章** 
+- 1. 1.CVE-2016-5734phpmyadmin后台代码执行漏洞复现.pdf
+- 1. 2.HW防守_Linux应急响应基础.pdf
+- 1. 3.Strtus2-048代码分析调试-CVE-2017-9791.pdf
+- 1. 4.如何使用WifiPumpkin3创建伪造的接入点.pdf
+- 1. 5.百分之百过杀软.pdf
+- 1. 6.红队测试之Linux提权小结.pdf
+- 1. 7.路由器抓包分析之SMB篇.pdf
+- 1. 8.通过selenium和flask中转后利用sqlmap进行注入ReberBlog.pdf
+- 1. 9.陌陌分享_文档钓鱼.pdf 
+
  **2020.06.06 21:30 更新文章** 
 - 1. 1.CVE-2020-0796微软SMBv3协议RCE复现.pdf
 - 1. 2.CVE-2020-7245CTFd账户接管漏洞复现.pdf
