@@ -12,6 +12,32 @@
 
 <<<<<<< HEAD
 
+ **2020.06.09 20:24 更新文章** 
+- 1. 1.Cobalt_Strike_beacon_smb_bind_pipe.pdf
+- 1. 2.Cobalt_Strike_beacon免杀上线com_劫持.pdf
+- 1. 3.Cobalt_Strike_beacon免杀上线Csharp.pdf
+- 1. 4.Cobalt_Strike_beacon免杀上线hanzoInjection.pdf
+- 1. 5.Cobalt_Strike_beacon免杀上线Powershell.pdf
+- 1. 6.Cobalt_Strike_beacon免杀上线Veil.pdf
+- 1. 7.Cobalt_Strike_beacon免杀上线动态shellcode注入.pdf
+- 1. 8.Cobalt_Strike_C2隐匿SSH加密隧道中.pdf
+- 1. 9.Cobalt_Strike_C2隐匿多级nginx反向代理.pdf
+- 1. 10.Cobalt_Strike_Link_Listener.pdf
+- 1. 11.Cobalt_Strike_psexec传递.pdf
+- 1. 12.Cobalt_Strike_reverse_http.pdf
+- 1. 13.Cobalt_Strike_reverse_https.pdf
+- 1. 14.Cobalt_Strike_reverse_http反向http外部监听器.pdf
+- 1. 15.Cobalt_Strike_reverse_tcp.pdf
+- 1. 16.Cobalt_Strike_ssh登录.pdf
+- 1. 17.Cobalt_Strike_利用钓鱼页面来搜索目标各类mail入口账号密码.pdf
+- 1. 18.Cobalt_Strike_利用钓鱼页面来搜索目标各类OA入口账号密码.pdf
+- 1. 19.Cobalt_Strike_利用钓鱼页面来搜索目标各类VPN入口账号密码.pdf
+- 1. 20.Cobalt_Strike_网页挂马.pdf
+- 1. 21.Cobalt_Strike与Metasploit实战联动.pdf
+- 1. 22.Cobalt_Strike批量发送钓鱼邮件.pdf
+- 1. 23.Cobalt_Strike生成监听器.pdf
+- 1. 24.Cobalt_Strike获取凭据.pdf
+
  **2020.06.08 21:45 更新文章** 
 - 1. 1.CVE-2016-5734phpmyadmin后台代码执行漏洞复现.pdf
 - 1. 2.HW防守_Linux应急响应基础.pdf
